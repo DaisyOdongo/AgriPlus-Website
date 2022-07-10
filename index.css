@@ -27,7 +27,7 @@ header{
         float: right;
         background-color: #ED661F;
         color: white;
-        font-weight: bold
+        font-weight: bolder
         border: 2px solid transparent;
         text-decoration: none;
         padding: 10px 25px;
@@ -41,22 +41,18 @@ header{
         box-sizing: border-box;
     }
 
-    
-
     .content{
+        flex-direction: row;
         background-image: url(assets/images/backgroundimage.png);
         background-size: cover;
         background-position: center;
-        margin-bottom: 100px;
-        margin-left: 0%;
-        float: right;
-    
+       margin-bottom: 50px;
     }
 
     #fruits img{
-        max-width: 40%;
-        height: auto;
+        flood-opacity: inherit;
     }
+
 
     #numbers{
         flex-direction: row;
@@ -64,7 +60,7 @@ header{
         color: black;
         font-weight: bold;
         border: 2px solid transparent;
-        padding: 15px 10px;
+        padding: 15px 50px;
         margin-top: 5px;
         margin-bottom: auto;
         margin-left: 30%;
@@ -74,26 +70,26 @@ header{
     .content button{
         float: left;
         margin-bottom: auto;
-        margin-top: 5px;  
-
+        margin-top: 5px;
+        
     }
 
-    .banner{
-        margin-top: 300px;
-        margin-bottom: auto;
-        margin-left: 0%;
-        font-family: 'Poppins, Inter';
-        flex-direction: row;
-    }   
-    
-    #why span{ 
-        text-decoration-color: #ED661F;
-        text-decoration: underline;
-        margin-bottom: 20px;
-    
-    }
-    
-    .banner img{
-    float: right;
-    margin-right: 10%;
-    }
+.banner{
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: 5%;
+    font-family: 'Poppins, Inter';
+
+}  
+
+#why span{ 
+    text-decoration-color: #ED661F;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+
+.banner img{
+float: right;
+margin-right: 10%;
+}
