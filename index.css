@@ -54,8 +54,6 @@ header{
     #fruits img{
         max-width: 40%;
         height: auto;
-        float: right;
-        padding: 15px 40px;
     }
 
     #numbers{
@@ -77,3 +75,24 @@ header{
         margin-top: 5px;
         
     }
+
+    .banner{
+        margin-top: 15px;
+        margin-bottom: auto;
+        margin-left: 5%;
+        font-family: 'Poppins, Inter';
+    
+    }  
+    
+    #why span{ 
+        text-decoration-color: #ED661F;
+        text-decoration: underline;
+        margin-bottom: 20pxS;
+    
+    }
+    
+    .banner img{
+    float: right;
+    margin-right: 10%;
+    }
+    
