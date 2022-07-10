@@ -47,7 +47,7 @@ header{
         background-image: url(assets/images/backgroundimage.png);
         background-size: cover;
         background-position: center;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         float: right;
     
     }
@@ -63,7 +63,7 @@ header{
         color: black;
         font-weight: bold;
         border: 2px solid transparent;
-        padding: 15px 50px;
+        padding: 15px 10px;
         margin-top: 5px;
         margin-bottom: auto;
         margin-left: 30%;
@@ -73,8 +73,8 @@ header{
     .content button{
         float: left;
         margin-bottom: auto;
-        margin-top: 5px;
-        
+        margin-top: 5px;  
     }
 
+    
     
