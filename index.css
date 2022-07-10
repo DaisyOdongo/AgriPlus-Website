@@ -195,3 +195,20 @@ margin-right: 10%;
     color: white;
     
 }
+
+#download img{
+    max-width: 20%;
+    max-height: auto;
+    vertical-align: middle;
+
+}
+
+.get{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
