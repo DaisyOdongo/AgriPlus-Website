@@ -1,0 +1,42 @@
+*{
+    font-family: 'Poppins Inter';
+}
+header{
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.menu li{
+    display:inline-block;
+    font-size: 15x;
+    font-weight: bold;
+    padding: 3px 15px;
+    margin: 20px;
+    text-align: center;
+    
+    }
+    
+    .menu li a{
+        color:#ED661F;
+        
+    }
+
+
+    button{
+        float: right;
+        background-color: #ED661F;
+        color: white;
+        font-weight: bolder
+        border: 2px solid transparent;
+        text-decoration: none;
+        padding: 10px 25px;
+    }
+
+    img {
+        max-width: 50%;
+        max-height: auto;
+        vertical-align: middle;
+        border: 0;
+        box-sizing: border-box;
+    }
