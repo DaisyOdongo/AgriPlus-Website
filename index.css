@@ -138,17 +138,17 @@ margin-right: 10%;
 #all{
     float: right;
     text-decoration: none;
-    border-bottom: 10px;
+    border-bottom: 250px;
     border-width: 10px;
     border-color: grey;
-}
 
+}
 
 .banner5{
     display: flex;
     flex-direction: row; 
-    margin-top: 50px;
-     margin-bottom: 10px;
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
 
 .banner5 img{
@@ -158,3 +158,16 @@ margin-right: 10%;
     border: 0;
     box-sizing: border-box;
 }
+
+#star i{
+    color: #ED661F;
+}
+
+#star1 i{
+    color: #ED661F;
+}
+
+#star2 i{
+    color: #ED661F;
+}
+
