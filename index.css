@@ -40,3 +40,40 @@ header{
         border: 0;
         box-sizing: border-box;
     }
+
+    
+
+    .content{
+        background-image: url(assets/images/backgroundimage.png);
+        background-size: cover;
+        background-position: center;
+       margin-bottom: 50px;
+       float: right;
+    }
+
+    #fruits img{
+        max-width: 40%;
+        height: auto;
+        float: right;
+        padding: 15px 40px;
+    }
+
+    #numbers{
+        flex-direction: row;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: 2px solid transparent;
+        padding: 15px 50px;
+        margin-top: 5px;
+        margin-bottom: auto;
+        margin-left: 30%;
+        margin-right: 10%;
+
+    }
+    .content button{
+        float: left;
+        margin-bottom: auto;
+        margin-top: 5px;
+        
+    }
