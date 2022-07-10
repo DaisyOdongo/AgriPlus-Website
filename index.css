@@ -113,7 +113,7 @@ margin-right: 10%;
 }
 
 .banner3 img{
-    max-width: 30%;
+    max-width: 40%;
     max-height: auto;
     vertical-align: middle;
     border: 0;
@@ -128,7 +128,7 @@ margin-right: 10%;
 }
 
 .banner4 img{
-    max-width: 30%;
+    max-width: 40%;
     max-height: auto;
     vertical-align: middle;
     border: 0;
@@ -150,19 +150,24 @@ margin-right: 10%;
     margin-top: 150px;
     margin-bottom: 10px;
     
+    
+    
 
 }
 
 .banner5 img{
-    max-width: 10%;
+    max-width: 20%;
     max-height: auto;
     vertical-align: middle;
     border: 0;
     box-sizing: border-box;
+    
+
 }
 
 #star i{
     color: #ED661F;
+    
 }
 
 #star1 i{
@@ -173,3 +178,8 @@ margin-right: 10%;
     color: #ED661F;
 }
 
+#read{
+    float: right;
+    text-decoration: none;
+    border-bottom: 250px;
+}
