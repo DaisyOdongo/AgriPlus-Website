@@ -182,3 +182,16 @@ margin-right: 10%;
     text-decoration: none;
     border-bottom: 250px;
 }
+
+.banner6{
+    border: 2px solid transparent;
+    padding: 15px 50px;
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
