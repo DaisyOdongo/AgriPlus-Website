@@ -104,3 +104,15 @@ margin-right: 10%;
     text-align: center;
     
 }
+
+.banner3{
+  flex-direction: row;  
+}
+
+.banner3 img{
+    max-width: 10%;
+    max-height: auto;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
