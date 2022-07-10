@@ -76,5 +76,9 @@ header{
         margin-top: 5px;  
     }
 
-    
+    .banner{
+        margin-top: 15px;
+        margin-bottom: auto;
+        font-family: 'Poppins, Inter';
+    }   
     
