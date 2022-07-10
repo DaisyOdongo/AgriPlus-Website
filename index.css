@@ -135,3 +135,11 @@ margin-right: 10%;
     box-sizing: border-box;
 }
 
+#all{
+    float: right;
+    text-decoration: none;
+    border-bottom: 10px;
+    border-width: 10px;
+    border-color: grey;
+}
+
