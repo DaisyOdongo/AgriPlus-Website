@@ -27,7 +27,7 @@ header{
         float: right;
         background-color: #ED661F;
         color: white;
-        font-weight: bolder
+        font-weight: bold
         border: 2px solid transparent;
         text-decoration: none;
         padding: 10px 25px;
@@ -77,23 +77,4 @@ header{
         
     }
 
-    .banner{
-        margin-top: 50px;
-        margin-bottom: auto;
-        margin-left: 5%;
-        font-family: 'Poppins, Inter';
-    
-    }  
-    
-    #why span{ 
-        text-decoration-color: #ED661F;
-        text-decoration: underline;
-        margin-bottom: 20pxS;
-    
-    }
-    
-    .banner img{
-    float: right;
-    margin-right: 10%;
-    }
     
