@@ -25,7 +25,7 @@ header{
     .menu li a{
         color: white;
         text-decoration-color: #ED661F;
-        
+
     }
 
 
@@ -50,41 +50,49 @@ header{
 
     .content{
         display: flex;
+        justify-content: center;
         padding-left: 5%;
         padding-top: 15%;
-        flex-direction: row;
         background-image: url(assets/images/backgroundimage.png);
         background-size: contain;
-    max-height: fit-content;
+        max-height: fit-content;
         background-repeat: no-repeat;
-        height: 800px
+        height: 700px
         
+    }
+
+    #explain{
+        padding-top: 50px;
+        flex-direction: column;
     }
 
     .content button{
         color: white;
         text-decoration: none;
     }
-    
+
+    #image{
+        padding-left: 30%;
+    }
     
     #numbers{
          background-color: white;
         color: black;
         font-weight: bold;
         box-sizing: border-box;
-        margin-top: 200px;
-        margin-bottom: auto;
+        margin-top: 250px;
+        margin-bottom: 5px;
         margin-left: 20%;
-        margin: right 60px;
+        margin-right: 30%;
         display: flex;
     
-        
-        
     }
 
-    .imagenumber {
+    #numbers{
         list-style: none;
-        padding-left: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
 
@@ -101,7 +109,7 @@ header{
     
 }  
 .banner1{
-    margin-left: 10%;
+    margin-left: 30%;
     margin-top: 100px;
     margin-bottom: auto;
     justify-content: space-between;
