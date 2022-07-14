@@ -1,0 +1,237 @@
+*{
+    font-family: "Poppins", "Inter";
+    
+}
+header{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.menu li{
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 15px;
+    margin: 20px;
+    text-align: center;
+    
+    }
+    
+    
+    button{
+        background-color: #ED661F;
+        color: white;
+        font-weight: bolder;
+        border: 4px solid transparent;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-family: "Popping", "Inter";
+        font-size: large;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        padding-left: 5%;
+        padding-top: 15%;
+        background-image: url(assets/images/backgroundimage.png);
+        background-size: contain;
+        max-height: fit-content;
+        background-repeat: no-repeat;
+        height: 700px
+        min-content
+        
+        
+    }
+
+    #explain{
+        flex-direction: column;
+        font-family: 'Poppins', 'Inter';
+        font-size: large;
+        padding-bottom: 5px;
+        margin-top: 10%;
+        width: 700px;
+    }
+
+    .imagenumber{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+
+    #numbers{
+        background-color: white;
+       color: black;
+       font-weight: bold;
+       margin-top: 230px;
+       margin-bottom: 5px;
+       margin-left: 10%;
+       margin-right: 20%;
+       
+   
+   }
+
+
+   /*.banner{
+    font-family: 'Poppins, Inter';
+    font-size: larger;
+    display: flex;*
+    align-items: center;
+    justify-content: space-around;
+  
+    }*/
+
+   .banner1{
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-family: 'Poppins', 'Inter';
+        padding-top: 3%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        font-size: large;
+        width: 1800px;
+}
+
+
+    .banner1 img{
+        float: right;
+        margin-right: 500px;
+        margin-top: 0%;
+        padding-left: 50px;
+    }
+
+    .banner2{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30%;
+        margin-right: 10%;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    .banner3{
+        display: flex;
+        flex-direction: row; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        
+    }
+    
+    .banner3 img{
+        max-width: 40%;
+        vertical-align: middle;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    .banner4{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    .banner4 img{
+        max-width: 40%;
+        max-height: auto;
+        vertical-align: middle;
+        border: 0;
+        box-sizing: border-box;
+    }
+   
+    .banner5{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        padding: 200px; 
+        background-color: white;
+        color: black;
+        font-size: larger;
+        
+    }
+    
+    .banner5 h1{
+        background-color: white;
+        color: black;}
+    
+    .banner5 img{
+        max-height: auto;
+        box-sizing: border-box;
+        
+    }
+    
+    #read{
+        float: right;
+        font-size: x-large;
+        color: black;
+    }
+
+    #read i{
+        color: #ED661F;
+        font-weight: 600;
+    }
+
+    .banner6{
+        border: 2px solid transparent;
+        padding: 15px 50px;
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: larger;
+        width: 80%;
+        margin-left: 10%;
+        list-style: none;
+    
+    }
+
+    #download img{
+        max-width: 25%;
+        max-height: auto;
+        vertical-align: middle;
+
+    }
+
+    .get{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .list{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-right: 15%;
+        list-style: none;
+    }
