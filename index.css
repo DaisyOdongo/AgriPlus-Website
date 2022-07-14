@@ -22,13 +22,7 @@ header{
     
     }
     
-    .menu li a{
-        color: white;
-        text-decoration-color: #ED661F;
-
-    }
-
-
+    
     button{
         background-color: #ED661F;
         color: white;
@@ -70,11 +64,6 @@ header{
         margin-top: 10%;
     }
 
-    #numbers li{
-        list-style: none;
-        flex-direction: row;
-
-    }
 
     #numbers{
         background-color: white;
@@ -121,17 +110,6 @@ header{
         padding-left: 50px;
     }
 
-
-    #why{
-        padding-left: 5%;
-    }
-
-    span{ 
-        text-decoration-color: #ED661F;
-        text-decoration-line: underline;
-        text-decoration-thickness: 3px;
-        margin-bottom: 20px;
-    }
     .banner2{
         flex-direction: column;
         align-items: center;
@@ -178,19 +156,7 @@ header{
         border: 0;
         box-sizing: border-box;
     }
-    
-    #all{
-        float: right;
-        color: black;
-        font-size: x-large;
-  
-    }
-
-    #all i{
-        color: #ED661F;
-        font-weight: 600;
-    }
-    
+   
     .banner5{
         display: flex;
         justify-content: space-between;
@@ -202,7 +168,6 @@ header{
         color: black;
         font-size: larger;
         
-    
     }
     
     .banner5 h1{
@@ -213,20 +178,6 @@ header{
         max-height: auto;
         box-sizing: border-box;
         
-    }
-    
-    #star i{
-        color: #ED661F;
-    
-        
-    }
-    
-    #star1 i{
-        color: #ED661F;
-    }
-    
-    #star2 i{
-        color: #ED661F;
     }
     
     #read{
@@ -259,28 +210,35 @@ header{
         color: white;
         margin-top: 10px;
         font-size: larger;
+        width: 80%;
+        margin-left: 10%;
+    
     }
 
     #download img{
-        max-width: 10%;
+        max-width: 40%;
         max-height: auto;
         vertical-align: middle;
-    
+
     }
-    #Company{
-        margin-right: 0%;
-        flex-direction: column;
-    }
-    
-    #Product{
-        margin-right: 0%;
-    }
+
     .get{
         flex-direction: column;
-        margin-left: 0%;
+        margin-left: 10%;
     }
 
     .list{
         display: flex;
-    
+        justify-content: space-between;
+        align-content: center;
+        margin-right: 45%;
+        justify-content: space-between;
     }
+
+    #others{
+        margin-left: 10%;
+        
+    }
+    #bottom p{
+        margin-bottom: 0cm;
+        }

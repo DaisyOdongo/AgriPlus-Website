@@ -1,0 +1,49 @@
+.menu li a{
+    color: white;
+    text-decoration-color: #ED661F;
+
+}
+
+#numbers li{
+    list-style: none;
+    flex-direction: row;
+}
+
+#why{
+    padding-left: 5%;
+}
+
+span{ 
+    text-decoration-color: #ED661F;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    margin-bottom: 20px;
+}
+
+ 
+#all{
+    float: right;
+    color: black;
+    font-size: x-large;
+
+}
+
+#all i{
+    color: #ED661F;
+    font-weight: 600;
+}
+
+
+#star i{
+    color: #ED661F;
+
+    
+}
+
+#star1 i{
+    color: #ED661F;
+}
+
+#star2 i{
+    color: #ED661F;
+}
