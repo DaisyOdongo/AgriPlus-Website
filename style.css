@@ -6,7 +6,7 @@
 
 #numbers li{
     list-style: none;
-    flex-direction: row;
+
 }
 
 #why{
@@ -20,7 +20,6 @@ span{
     margin-bottom: 20px;
 }
 
- 
 #all{
     float: right;
     color: black;
@@ -46,4 +45,15 @@ span{
 
 #star2 i{
     color: #ED661F;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: larger;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 20px;
 }
