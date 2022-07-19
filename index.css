@@ -20,6 +20,12 @@ header{
     text-align: center;
     
     }
+
+    .menu li a{
+        color: white;
+        text-decoration-color: #ED661F;
+    
+    }
     
     
     button{
@@ -32,6 +38,7 @@ header{
         font-family: "Popping", "Inter";
         font-size: large;
     }
+
 
     .content{
         display: flex;
@@ -77,6 +84,11 @@ header{
        margin-right: 30%;
    }
 
+   #numbers li{
+    list-style: none;
+
+}
+
 
    /*.banner{
     font-family: 'Poppins, Inter';
@@ -110,6 +122,17 @@ header{
         padding-left: 50px;
     }
 
+    #why{
+        padding-left: 5%;
+    }
+
+    span{ 
+        text-decoration-color: #ED661F;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        margin-bottom: 20px;
+    }
+    
     .banner2{
         flex-direction: column;
         align-items: center;
@@ -156,6 +179,18 @@ header{
         border: 0;
         box-sizing: border-box;
     }
+
+    #all{
+        float: right;
+        color: black;
+        font-size: x-large;
+    
+    }
+    
+    #all i{
+        color: #ED661F;
+        font-weight: 600;
+    }
    
     .banner5{
         display: flex;
@@ -178,6 +213,22 @@ header{
         box-sizing: border-box;
         
     }
+
+    #star i{
+        color: #ED661F;
+    
+        
+    }
+    
+    #star1 i{
+        color: #ED661F;
+    }
+    
+    #star2 i{
+        color: #ED661F;
+    }
+    
+    
     
     #read{
         float: right;
@@ -210,6 +261,19 @@ header{
         margin-left: 35%;
         margin-right: 40%;
     }
+
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: larger;
+        width: 80%;
+        margin-left: 10%;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 20px;
+    }
+
     .foot{
         display: flex;
         justify-content: space-between;
